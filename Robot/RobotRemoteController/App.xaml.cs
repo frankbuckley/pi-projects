@@ -74,7 +74,6 @@ namespace RobotController
                 // parameter
                 rootFrame.Navigate(typeof(MainPage), e.Arguments);
             }
-
             // Ensure the current window is active
             Window.Current.Activate();
         }

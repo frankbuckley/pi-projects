@@ -26,7 +26,7 @@ namespace RaspberryPi
         public void MoveLeft()
         {
             Debug.WriteLine("Robot: MoveLeft");
-            // _explorerHat.Motor1.Start(MotorDirection.Back);
+            _explorerHat.Motor1.Start(MotorDirection.Back);
             _explorerHat.Motor2.Start(MotorDirection.Forward);
         }
 
@@ -34,7 +34,7 @@ namespace RaspberryPi
         {
             Debug.WriteLine("Robot: MoveRight");
             _explorerHat.Motor1.Start(MotorDirection.Forward);
-            //_explorerHat.Motor2.Start(MotorDirection.Back);
+            _explorerHat.Motor2.Start(MotorDirection.Back);
         }
 
         public void Stop()

@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="RobotController.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RobotController"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" KeyUp="HandleKeyUp" KeyDown="HandleKeyDown">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" x:Name="titleTextBlock" TextWrapping="Wrap" Text="Robot Controller" VerticalAlignment="Top"
+                   Margin="20" Style="{StaticResource HeaderTextBlockStyle}" />
+        <ListBox x:Name="CommandHistoryListBox" Grid.Row="1"></ListBox>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="80"/>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="CommandTextBox" Grid.Column="0" Margin="20"></TextBox>
+            <Button Click="HandleSendButtonClick" x:Name="sendButton" Grid.Column="1">Send</Button>
+        </Grid>
+    </Grid>
+</Page>

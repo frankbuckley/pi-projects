@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotServer", "RobotServer\RobotServer.csproj", "{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaspberryPi", "..\RaspberryPi\RaspberryPi\RaspberryPi.csproj", "{E2699220-AE53-4E0E-9767-256419B524A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotController", "RobotController\RobotController.csproj", "{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,26 +19,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Debug|ARM.ActiveCfg = Debug|ARM
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Debug|ARM.Build.0 = Debug|ARM
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Debug|ARM.Deploy.0 = Debug|ARM
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Debug|x64.ActiveCfg = Debug|x64
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Debug|x64.Build.0 = Debug|x64
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Debug|x64.Deploy.0 = Debug|x64
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Debug|x86.ActiveCfg = Debug|x86
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Debug|x86.Build.0 = Debug|x86
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Debug|x86.Deploy.0 = Debug|x86
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Release|Any CPU.ActiveCfg = Release|x86
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Release|ARM.ActiveCfg = Release|ARM
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Release|ARM.Build.0 = Release|ARM
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Release|ARM.Deploy.0 = Release|ARM
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Release|x64.ActiveCfg = Release|x64
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Release|x64.Build.0 = Release|x64
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Release|x64.Deploy.0 = Release|x64
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Release|x86.ActiveCfg = Release|x86
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Release|x86.Build.0 = Release|x86
-		{D595EBB3-93CE-47B8-B93A-04D645CB5AE1}.Release|x86.Deploy.0 = Release|x86
 		{E2699220-AE53-4E0E-9767-256419B524A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E2699220-AE53-4E0E-9767-256419B524A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2699220-AE53-4E0E-9767-256419B524A0}.Debug|ARM.ActiveCfg = Debug|ARM
@@ -55,6 +35,26 @@ Global
 		{E2699220-AE53-4E0E-9767-256419B524A0}.Release|x64.Build.0 = Release|x64
 		{E2699220-AE53-4E0E-9767-256419B524A0}.Release|x86.ActiveCfg = Release|x86
 		{E2699220-AE53-4E0E-9767-256419B524A0}.Release|x86.Build.0 = Release|x86
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Debug|ARM.ActiveCfg = Debug|ARM
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Debug|ARM.Build.0 = Debug|ARM
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Debug|ARM.Deploy.0 = Debug|ARM
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Debug|x64.ActiveCfg = Debug|x64
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Debug|x64.Build.0 = Debug|x64
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Debug|x64.Deploy.0 = Debug|x64
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Debug|x86.ActiveCfg = Debug|x86
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Debug|x86.Build.0 = Debug|x86
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Debug|x86.Deploy.0 = Debug|x86
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Release|Any CPU.ActiveCfg = Release|x86
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Release|ARM.ActiveCfg = Release|ARM
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Release|ARM.Build.0 = Release|ARM
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Release|ARM.Deploy.0 = Release|ARM
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Release|x64.ActiveCfg = Release|x64
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Release|x64.Build.0 = Release|x64
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Release|x64.Deploy.0 = Release|x64
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Release|x86.ActiveCfg = Release|x86
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Release|x86.Build.0 = Release|x86
+		{24C0320C-60DE-4ADA-8BDA-A480FD7731A1}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
